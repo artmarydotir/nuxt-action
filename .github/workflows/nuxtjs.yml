@@ -16,5 +16,5 @@ jobs:
       - uses: artmarydotir/nuxt-action@master
       - uses: actions/upload-artifact@master
         with:
-          path: dist
+          path: .nuxt
           name: artifact.zip
