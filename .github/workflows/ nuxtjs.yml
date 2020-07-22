@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: artmarydotir/nuxtjs-generate-action@v0.1.0
+      - uses: artmarydotir/artmarydotir/nuxt-action
       - uses: actions/upload-artifact@v1
         with:
           path: dist
